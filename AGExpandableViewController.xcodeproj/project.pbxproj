@@ -10,6 +10,16 @@
 		F421732E2322692600EF851D /* AGExpandableViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42173242322692600EF851D /* AGExpandableViewController.framework */; };
 		F42173332322692600EF851D /* AGExpandableViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42173322322692600EF851D /* AGExpandableViewControllerTests.swift */; };
 		F42173352322692600EF851D /* AGExpandableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F42173272322692600EF851D /* AGExpandableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F421734A2322704200EF851D /* UIViewController+Subview.m in Sources */ = {isa = PBXBuildFile; fileRef = F421733F2322704200EF851D /* UIViewController+Subview.m */; };
+		F421734B2322704200EF851D /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F42173402322704200EF851D /* UIView+AutoLayout.m */; };
+		F421734C2322704200EF851D /* UITableViewCell+Subview.h in Headers */ = {isa = PBXBuildFile; fileRef = F42173412322704200EF851D /* UITableViewCell+Subview.h */; };
+		F421734D2322704200EF851D /* UIViewController+Subview.h in Headers */ = {isa = PBXBuildFile; fileRef = F42173422322704200EF851D /* UIViewController+Subview.h */; };
+		F421734E2322704200EF851D /* UITableViewCell+Subview.m in Sources */ = {isa = PBXBuildFile; fileRef = F42173432322704200EF851D /* UITableViewCell+Subview.m */; };
+		F421734F2322704200EF851D /* UIView+AutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = F42173442322704200EF851D /* UIView+AutoLayout.h */; };
+		F42173502322704200EF851D /* Expandable.m in Sources */ = {isa = PBXBuildFile; fileRef = F42173462322704200EF851D /* Expandable.m */; };
+		F42173512322704200EF851D /* ExpandableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F42173472322704200EF851D /* ExpandableViewController.h */; };
+		F42173522322704200EF851D /* ExpandableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F42173482322704200EF851D /* ExpandableViewController.m */; };
+		F42173532322704200EF851D /* Expandable.h in Headers */ = {isa = PBXBuildFile; fileRef = F42173492322704200EF851D /* Expandable.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +39,16 @@
 		F421732D2322692600EF851D /* AGExpandableViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AGExpandableViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F42173322322692600EF851D /* AGExpandableViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AGExpandableViewControllerTests.swift; sourceTree = "<group>"; };
 		F42173342322692600EF851D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F421733F2322704200EF851D /* UIViewController+Subview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Subview.m"; sourceTree = "<group>"; };
+		F42173402322704200EF851D /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
+		F42173412322704200EF851D /* UITableViewCell+Subview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+Subview.h"; sourceTree = "<group>"; };
+		F42173422322704200EF851D /* UIViewController+Subview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Subview.h"; sourceTree = "<group>"; };
+		F42173432322704200EF851D /* UITableViewCell+Subview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+Subview.m"; sourceTree = "<group>"; };
+		F42173442322704200EF851D /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayout.h"; sourceTree = "<group>"; };
+		F42173462322704200EF851D /* Expandable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Expandable.m; sourceTree = "<group>"; };
+		F42173472322704200EF851D /* ExpandableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpandableViewController.h; sourceTree = "<group>"; };
+		F42173482322704200EF851D /* ExpandableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpandableViewController.m; sourceTree = "<group>"; };
+		F42173492322704200EF851D /* Expandable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Expandable.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +91,8 @@
 		F42173262322692600EF851D /* AGExpandableViewController */ = {
 			isa = PBXGroup;
 			children = (
+				F42173452322704200EF851D /* ExpandableViewController */,
+				F421733E2322704200EF851D /* Extension */,
 				F42173272322692600EF851D /* AGExpandableViewController.h */,
 				F42173282322692600EF851D /* Info.plist */,
 			);
@@ -86,6 +108,30 @@
 			path = AGExpandableViewControllerTests;
 			sourceTree = "<group>";
 		};
+		F421733E2322704200EF851D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F421733F2322704200EF851D /* UIViewController+Subview.m */,
+				F42173402322704200EF851D /* UIView+AutoLayout.m */,
+				F42173412322704200EF851D /* UITableViewCell+Subview.h */,
+				F42173422322704200EF851D /* UIViewController+Subview.h */,
+				F42173432322704200EF851D /* UITableViewCell+Subview.m */,
+				F42173442322704200EF851D /* UIView+AutoLayout.h */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F42173452322704200EF851D /* ExpandableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F42173462322704200EF851D /* Expandable.m */,
+				F42173472322704200EF851D /* ExpandableViewController.h */,
+				F42173482322704200EF851D /* ExpandableViewController.m */,
+				F42173492322704200EF851D /* Expandable.h */,
+			);
+			path = ExpandableViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,7 +139,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F421734F2322704200EF851D /* UIView+AutoLayout.h in Headers */,
+				F421734C2322704200EF851D /* UITableViewCell+Subview.h in Headers */,
+				F42173532322704200EF851D /* Expandable.h in Headers */,
 				F42173352322692600EF851D /* AGExpandableViewController.h in Headers */,
+				F42173512322704200EF851D /* ExpandableViewController.h in Headers */,
+				F421734D2322704200EF851D /* UIViewController+Subview.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +245,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F421734E2322704200EF851D /* UITableViewCell+Subview.m in Sources */,
+				F421734A2322704200EF851D /* UIViewController+Subview.m in Sources */,
+				F421734B2322704200EF851D /* UIView+AutoLayout.m in Sources */,
+				F42173522322704200EF851D /* ExpandableViewController.m in Sources */,
+				F42173502322704200EF851D /* Expandable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
