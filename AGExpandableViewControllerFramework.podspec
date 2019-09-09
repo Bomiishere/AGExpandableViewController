@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.description  = "123"
   s.homepage     = "https://github.com/Bomiishere/AGExpandableViewController.git"
   s.author       = { "Bomi" => "bomiishere@gmail.com" }
-  s.source_files = "/AGExpandableViewController/**/*.{h,m}"
+  s.source_files = "AGExpandableViewController/**/*.{h,m}"
   s.source       = { :git => "https://github.com/Bomiishere/AGExpandableViewController.git", :tag => s.version }
   s.license      = "MIT"
   s.platform = :ios, '9.0'
